@@ -12,23 +12,23 @@ Design and integrate a Python function that calculates the volume of a cylinder,
 Design the Python Function for Volume Calculation
 Where:
 
-(V) is the volume of the cylinder.
-(r) is the radius of the base of the cylinder.
-(h) is the height of the cylinder.
-(\pi) is approximately 3.14159.
+- (V) is the volume of the cylinder.
+- (r) is the radius of the base of the cylinder.
+- (h) is the height of the cylinder.
+- (\pi) is approximately 3.14159.
 
 #### STEP 2:Create a Chat Completion System
 The chat system will:
 
-Take user input as queries.
-Detect when the user wants to calculate the volume of a cylinder.
-Call the volume calculation function when the user provides the required parameters (radius and height).
+- Take user input as queries.
+- Detect when the user wants to calculate the volume of a cylinder.
+- Call the volume calculation function when the user provides the required parameters (radius and height).
 
 #### STEP 3:Integrate the Function with the LLM's Function-Calling Feature
 In a system utilizing an LLM with function-calling capabilities:
 
-The function must be defined to be invoked through the LLM interface.
-The LLM must be able to extract values for radius and height from the user’s query and pass them to the function
+- The function must be defined to be invoked through the LLM interface.
+- The LLM must be able to extract values for radius and height from the user’s query and pass them to the function
 ### PROGRAM:
 ```python
 import math
